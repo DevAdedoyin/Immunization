@@ -1,0 +1,35 @@
+{% load static %}
+<html>
+  <head>
+    <title>HOME</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link href="{% static 'search/css/main.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="s01">
+      <form id="searchform" action="{% url 'result' %}" method="GET" style="border: 13px;">
+        <fieldset>
+          <legend>Immunization</legend>
+        </fieldset>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <input id="search" type="text" placeholder="Search For Disease" name="s" value="{{ request.GET.s }}" />
+          </div>
+          <!--<div class="input-field second-wrap">
+            <input id="location" type="text" placeholder="location" />
+          </div>-->
+          <div class="input-field third-wrap">
+            <input class="btn-search" name="s" type="button" value="Search"/>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="move" style="margin-top:-90px;text-align:center;">
+    <a style="text-align: center; font-size: 20px; padding: 10px; font-weight:bolder; border-radius:100px; color:red; text-decoration:None; background-color:white;" href="{% url 'index' %}">Click Here To View The Vaccines And Their Info</a>
+    </div>
+  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

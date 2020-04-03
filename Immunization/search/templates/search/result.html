@@ -1,0 +1,47 @@
+{% load static %}
+<html>
+  <head>
+    <title>SEARCH RESULT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link href="{% static 'search/css/main.css' %}" rel="stylesheet" />
+    <style>
+          .vitinfo{color:grey}
+          i a:hover{ color: #FF0000;}
+          h1 a:hover{text-shadow: 3px 4px red;}
+    </style>
+  </head>
+  <body>
+    <div class="s01">
+      <form id="searchform" action="{% url 'result' %}" method="GET">
+        <fieldset>
+          <legend>Immunization</legend>
+        </fieldset>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <input id="search" type="text" placeholder="Search For Disease" name="s" value="{{ request.GET.s }}" />
+          </div>
+          <!--<div class="input-field second-wrap">
+            <input id="location" type="text" placeholder="location" />
+          </div>-->
+          <div class="input-field third-wrap">
+            <input class="btn-search" name="s" type="button" value="Search"/>
+          </div>
+        </div>
+        <!--##### RESULT #####-->
+        {% for result in result %}
+          {% if userstr == result.value.lower %}
+        <p style="color: white; font-weight: bolder; text-shadow:1px 3px red; font-size: 25px;">Vaccine(s) For {{ result.value }}</p>
+        <div class="row" style="background-color: white; text-align: center; border-radius: 100px;">
+            <h1><a href="{% url 'vaccine' result.superclass %}" style="text-decoration:None; text-shadow:3px 3px grey; color: black; font-weight:bolder; border:1px;">{{ result.superlabel }}</a></h1>
+            <i><a href="{% url 'vaccine' result.superclass %}" class="vitinfo" style="text-decoration:None; font-size:20px; font-weight:bolder; border:1px;">Click For More Details About {{ result.superlabel }}</a></i>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </form>
+    </div>
+  </body>
+</html>

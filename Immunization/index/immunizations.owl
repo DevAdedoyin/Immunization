@@ -1,0 +1,1422 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/olamiposi/ontologies/2019/9/moyin"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/olamiposi/ontologies/2019/9/moyin">
+    <Prefix name="" IRI="http://www.semanticweb.org/olamiposi/ontologies/2019/9/untitled-ontology-24#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Age_For_BCG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age_For_Hepatitis_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age_For_IPV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age_For_Measles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age_For_OPV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age_For_PCV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age_For_Pentavalent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age_For_Rota"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age_For_Vitamin_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age_For_Yellow_Fever"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BCG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BCG_Disease_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BCG_Dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BCG_Doses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BCG_Route_Of_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BCG_Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hepatitis_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hepatitis_B_Disease_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hepatitis_B_Dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hepatitis_B_Doses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hepatitis_B_Route_Of_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hepatitis_B_Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IPV_Disease_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IPV_Dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IPV_Doses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IPV_Route_Of_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IPV_Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measles_Disease_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measles_Dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measles_Doses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measles_Route_Of_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measles_Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPV_Disease_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPV_Dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPV_Doses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPV_Route_Of_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPV_Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCV_Disease_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCV_Dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCV_Doses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCV_Route_Of_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCV_Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pentavalent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pentavalent_Disease_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pentavalent_Dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pentavalent_Doses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pentavalent_Route_Of_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pentavalent_Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rota"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rota_Disease_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rota_Dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rota_Doses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rota_Route_Of_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rota_Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_A_Disease_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_A_Dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_A_Doses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_A_Route_Of_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_A_Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow_Fever"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow_Fever_Disease_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow_Fever_Dose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow_Fever_Doses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow_Fever_Route_Of_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow_Fever_Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inactivated_Polio_Vaccine(IPV)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oral_Polio_Vaccine(OPV)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pneumococcal_Conjugate_Vaccine(PCV)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDisease"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDoses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasROA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVaccinationSite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#diseasePrevention"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dose"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#doses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#routeOfAdministration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vaccinationSite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#At_Birth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#At_Birth_To_12_Months"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diarrhoea_Diseases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diphtheria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Haemophilus_Influenza_Type_B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hepatitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intradermal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intramuscular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Left_Outer_Thigh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Left_Upper_Arm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Measles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pertusis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pneumonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poliomyelitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Right_Outer_Thigh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Right_Upper_Arm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sight_Issues"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Subcutaneous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tetanus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yellow_Fever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#0.05ml"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#0.5ml"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1.2ml"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10_weeks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#100000IU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#14_weeks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#15_Months"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2_drops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#6_weeks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#9_Months"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Age_For_BCG"/>
+        <Class IRI="#BCG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age_For_Hepatitis_B"/>
+        <Class IRI="#Hepatitis_B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age_For_IPV"/>
+        <Class IRI="#Inactivated_Polio_Vaccine(IPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age_For_Measles"/>
+        <Class IRI="#Measles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age_For_OPV"/>
+        <Class IRI="#Oral_Polio_Vaccine(OPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age_For_PCV"/>
+        <Class IRI="#Pneumococcal_Conjugate_Vaccine(PCV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age_For_Pentavalent"/>
+        <Class IRI="#Pentavalent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age_For_Rota"/>
+        <Class IRI="#Rota"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age_For_Vitamin_A"/>
+        <Class IRI="#Vitamin_A"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age_For_Yellow_Fever"/>
+        <Class IRI="#Yellow_Fever"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BCG"/>
+        <Class IRI="#Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BCG_Disease_Prevention"/>
+        <Class IRI="#BCG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BCG_Dose"/>
+        <Class IRI="#BCG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BCG_Doses"/>
+        <Class IRI="#BCG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BCG_Route_Of_Administration"/>
+        <Class IRI="#BCG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BCG_Vaccination"/>
+        <Class IRI="#BCG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hepatitis_B"/>
+        <Class IRI="#Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hepatitis_B_Disease_Prevention"/>
+        <Class IRI="#Hepatitis_B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hepatitis_B_Dose"/>
+        <Class IRI="#Hepatitis_B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hepatitis_B_Doses"/>
+        <Class IRI="#Hepatitis_B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hepatitis_B_Route_Of_Administration"/>
+        <Class IRI="#Hepatitis_B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hepatitis_B_Vaccination"/>
+        <Class IRI="#Hepatitis_B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPV_Disease_Prevention"/>
+        <Class IRI="#Inactivated_Polio_Vaccine(IPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPV_Dose"/>
+        <Class IRI="#Inactivated_Polio_Vaccine(IPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPV_Doses"/>
+        <Class IRI="#Inactivated_Polio_Vaccine(IPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPV_Route_Of_Administration"/>
+        <Class IRI="#Inactivated_Polio_Vaccine(IPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPV_Vaccination"/>
+        <Class IRI="#Inactivated_Polio_Vaccine(IPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measles"/>
+        <Class IRI="#Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measles_Disease_Prevention"/>
+        <Class IRI="#Measles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measles_Dose"/>
+        <Class IRI="#Measles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measles_Doses"/>
+        <Class IRI="#Measles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measles_Route_Of_Administration"/>
+        <Class IRI="#Measles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measles_Vaccination"/>
+        <Class IRI="#Measles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPV_Disease_Prevention"/>
+        <Class IRI="#Oral_Polio_Vaccine(OPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPV_Dose"/>
+        <Class IRI="#Oral_Polio_Vaccine(OPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPV_Doses"/>
+        <Class IRI="#Oral_Polio_Vaccine(OPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPV_Route_Of_Administration"/>
+        <Class IRI="#Oral_Polio_Vaccine(OPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPV_Vaccination"/>
+        <Class IRI="#Oral_Polio_Vaccine(OPV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCV_Disease_Prevention"/>
+        <Class IRI="#Pneumococcal_Conjugate_Vaccine(PCV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCV_Dose"/>
+        <Class IRI="#Pneumococcal_Conjugate_Vaccine(PCV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCV_Doses"/>
+        <Class IRI="#Pneumococcal_Conjugate_Vaccine(PCV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCV_Route_Of_Administration"/>
+        <Class IRI="#Pneumococcal_Conjugate_Vaccine(PCV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCV_Vaccination"/>
+        <Class IRI="#Pneumococcal_Conjugate_Vaccine(PCV)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pentavalent"/>
+        <Class IRI="#Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pentavalent_Disease_Prevention"/>
+        <Class IRI="#Pentavalent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pentavalent_Dose"/>
+        <Class IRI="#Pentavalent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pentavalent_Doses"/>
+        <Class IRI="#Pentavalent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pentavalent_Route_Of_Administration"/>
+        <Class IRI="#Pentavalent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pentavalent_Vaccination"/>
+        <Class IRI="#Pentavalent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rota"/>
+        <Class IRI="#Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rota_Disease_Prevention"/>
+        <Class IRI="#Rota"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rota_Dose"/>
+        <Class IRI="#Rota"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rota_Doses"/>
+        <Class IRI="#Rota"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rota_Route_Of_Administration"/>
+        <Class IRI="#Rota"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rota_Vaccination"/>
+        <Class IRI="#Rota"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccine"/>
+        <Class IRI="#Immunization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_A"/>
+        <Class IRI="#Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_A_Disease_Prevention"/>
+        <Class IRI="#Vitamin_A"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_A_Dose"/>
+        <Class IRI="#Vitamin_A"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_A_Doses"/>
+        <Class IRI="#Vitamin_A"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_A_Route_Of_Administration"/>
+        <Class IRI="#Vitamin_A"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_A_Vaccination"/>
+        <Class IRI="#Vitamin_A"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow_Fever"/>
+        <Class IRI="#Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow_Fever_Disease_Prevention"/>
+        <Class IRI="#Yellow_Fever"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow_Fever_Dose"/>
+        <Class IRI="#Yellow_Fever"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow_Fever_Doses"/>
+        <Class IRI="#Yellow_Fever"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow_Fever_Route_Of_Administration"/>
+        <Class IRI="#Yellow_Fever"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow_Fever_Vaccination"/>
+        <Class IRI="#Yellow_Fever"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inactivated_Polio_Vaccine(IPV)"/>
+        <Class IRI="#Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oral_Polio_Vaccine(OPV)"/>
+        <Class IRI="#Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pneumococcal_Conjugate_Vaccine(PCV)"/>
+        <Class IRI="#Vaccine"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Age_For_Hepatitis_B"/>
+        <NamedIndividual IRI="#At_Birth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_OPV"/>
+        <NamedIndividual IRI="#At_Birth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_Vitamin_A"/>
+        <NamedIndividual IRI="#At_Birth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_BCG"/>
+        <NamedIndividual IRI="#At_Birth_To_12_Months"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rota_Disease_Prevention"/>
+        <NamedIndividual IRI="#Diarrhoea_Diseases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pentavalent_Disease_Prevention"/>
+        <NamedIndividual IRI="#Diphtheria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pentavalent_Disease_Prevention"/>
+        <NamedIndividual IRI="#Haemophilus_Influenza_Type_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hepatitis_B_Disease_Prevention"/>
+        <NamedIndividual IRI="#Hepatitis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pentavalent_Disease_Prevention"/>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BCG_Route_Of_Administration"/>
+        <NamedIndividual IRI="#Intradermal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hepatitis_B_Route_Of_Administration"/>
+        <NamedIndividual IRI="#Intramuscular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IPV_Route_Of_Administration"/>
+        <NamedIndividual IRI="#Intramuscular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PCV_Route_Of_Administration"/>
+        <NamedIndividual IRI="#Intramuscular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pentavalent_Route_Of_Administration"/>
+        <NamedIndividual IRI="#Intramuscular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hepatitis_B_Vaccination"/>
+        <NamedIndividual IRI="#Left_Outer_Thigh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PCV_Vaccination"/>
+        <NamedIndividual IRI="#Left_Outer_Thigh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pentavalent_Vaccination"/>
+        <NamedIndividual IRI="#Left_Outer_Thigh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BCG_Vaccination"/>
+        <NamedIndividual IRI="#Left_Upper_Arm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Measles_Disease_Prevention"/>
+        <NamedIndividual IRI="#Measles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OPV_Route_Of_Administration"/>
+        <NamedIndividual IRI="#Oral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OPV_Vaccination"/>
+        <NamedIndividual IRI="#Oral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rota_Route_Of_Administration"/>
+        <NamedIndividual IRI="#Oral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vitamin_A_Route_Of_Administration"/>
+        <NamedIndividual IRI="#Oral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vitamin_A_Vaccination"/>
+        <NamedIndividual IRI="#Oral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pentavalent_Disease_Prevention"/>
+        <NamedIndividual IRI="#Pertusis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PCV_Disease_Prevention"/>
+        <NamedIndividual IRI="#Pneumonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IPV_Disease_Prevention"/>
+        <NamedIndividual IRI="#Poliomyelitis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OPV_Disease_Prevention"/>
+        <NamedIndividual IRI="#Poliomyelitis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IPV_Vaccination"/>
+        <NamedIndividual IRI="#Right_Outer_Thigh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Measles_Vaccination"/>
+        <NamedIndividual IRI="#Right_Upper_Arm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Yellow_Fever_Vaccination"/>
+        <NamedIndividual IRI="#Right_Upper_Arm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vitamin_A_Disease_Prevention"/>
+        <NamedIndividual IRI="#Sight_Issues"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Measles_Route_Of_Administration"/>
+        <NamedIndividual IRI="#Subcutaneous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Yellow_Fever_Route_Of_Administration"/>
+        <NamedIndividual IRI="#Subcutaneous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pentavalent_Disease_Prevention"/>
+        <NamedIndividual IRI="#Tetanus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BCG_Disease_Prevention"/>
+        <NamedIndividual IRI="#Tuberculosis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Yellow_Fever_Disease_Prevention"/>
+        <NamedIndividual IRI="#Yellow_Fever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BCG_Dose"/>
+        <NamedIndividual IRI="#0.05ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hepatitis_B_Dose"/>
+        <NamedIndividual IRI="#0.5ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IPV_Dose"/>
+        <NamedIndividual IRI="#0.5ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Measles_Doses"/>
+        <NamedIndividual IRI="#0.5ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PCV_Dose"/>
+        <NamedIndividual IRI="#0.5ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pentavalent_Dose"/>
+        <NamedIndividual IRI="#0.5ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Yellow_Fever_Dose"/>
+        <NamedIndividual IRI="#0.5ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BCG_Doses"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hepatitis_B_Doses"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IPV_Doses"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Measles_Doses"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Yellow_Fever_Doses"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rota_Dose"/>
+        <NamedIndividual IRI="#1.2ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_OPV"/>
+        <NamedIndividual IRI="#10_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_PCV"/>
+        <NamedIndividual IRI="#10_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_Pentavalent"/>
+        <NamedIndividual IRI="#10_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_Rota"/>
+        <NamedIndividual IRI="#10_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vitamin_A_Dose"/>
+        <NamedIndividual IRI="#100000IU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_IPV"/>
+        <NamedIndividual IRI="#14_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_OPV"/>
+        <NamedIndividual IRI="#14_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_PCV"/>
+        <NamedIndividual IRI="#14_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_Pentavalent"/>
+        <NamedIndividual IRI="#14_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_Vitamin_A"/>
+        <NamedIndividual IRI="#15_Months"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rota_Doses"/>
+        <NamedIndividual IRI="#2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vitamin_A_Doses"/>
+        <NamedIndividual IRI="#2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OPV_Dose"/>
+        <NamedIndividual IRI="#2_drops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PCV_Doses"/>
+        <NamedIndividual IRI="#3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pentavalent_Doses"/>
+        <NamedIndividual IRI="#3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OPV_Doses"/>
+        <NamedIndividual IRI="#4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_OPV"/>
+        <NamedIndividual IRI="#6_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_Pentavalent"/>
+        <NamedIndividual IRI="#6_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_Rota"/>
+        <NamedIndividual IRI="#6_weeks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_Measles"/>
+        <NamedIndividual IRI="#9_Months"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age_For_Yellow_Fever"/>
+        <NamedIndividual IRI="#9_Months"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#At_Birth"/>
+        <NamedIndividual IRI="#At_Birth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#At_Birth_To_12_Months"/>
+        <NamedIndividual IRI="#At_Birth_To_12_Months"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasROA"/>
+        <NamedIndividual IRI="#Intradermal"/>
+        <NamedIndividual IRI="#Intradermal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDoses"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#10_weeks"/>
+        <NamedIndividual IRI="#10_weeks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#14_weeks"/>
+        <NamedIndividual IRI="#14_weeks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#15_Months"/>
+        <NamedIndividual IRI="#15_Months"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDoses"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDoses"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDoses"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#6_weeks"/>
+        <NamedIndividual IRI="#6_weeks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#9_Months"/>
+        <NamedIndividual IRI="#9_Months"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#At_Birth"/>
+        <Literal>At Birth</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#At_Birth_To_12_Months"/>
+        <Literal>At Birth To 12 Months</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Diarrhoea_Diseases"/>
+        <Literal>Diarrhoea_Diseases</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Diphtheria"/>
+        <Literal>Diphtheria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Hepatitis"/>
+        <Literal>Hepatitis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+        <Literal>Hepatitis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#routeOfAdministration"/>
+        <NamedIndividual IRI="#Intradermal"/>
+        <Literal>Intradermal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#routeOfAdministration"/>
+        <NamedIndividual IRI="#Intramuscular"/>
+        <Literal>Intramuscular</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vaccinationSite"/>
+        <NamedIndividual IRI="#Left_Outer_Thigh"/>
+        <Literal>Left_Outer_Thigh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vaccinationSite"/>
+        <NamedIndividual IRI="#Left_Upper_Arm"/>
+        <Literal>Left_Upper_Arm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Measles"/>
+        <Literal>Measles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#routeOfAdministration"/>
+        <NamedIndividual IRI="#Oral"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Pertusis"/>
+        <Literal>Pertusis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Pneumonia"/>
+        <Literal>Pneumonia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Poliomyelitis"/>
+        <Literal>Poliomyelitis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vaccinationSite"/>
+        <NamedIndividual IRI="#Right_Outer_Thigh"/>
+        <Literal>Right Outer Thigh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vaccinationSite"/>
+        <NamedIndividual IRI="#Right_Upper_Arm"/>
+        <Literal>Right Upper Arm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Subcutaneous"/>
+        <Literal>Subcutaneous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Tetanus"/>
+        <Literal>Tetanus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#routeOfAdministration"/>
+        <NamedIndividual IRI="#Tuberculosis"/>
+        <Literal>Tuberculosis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#diseasePrevention"/>
+        <NamedIndividual IRI="#Yellow_Fever"/>
+        <Literal>Yellow Fever</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dose"/>
+        <NamedIndividual IRI="#0.05ml"/>
+        <Literal>0.05ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#routeOfAdministration"/>
+        <NamedIndividual IRI="#0.5ml"/>
+        <Literal>0.5ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#doses"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal>1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#10_weeks"/>
+        <Literal>10 Weeks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#14_weeks"/>
+        <Literal>14 Weeks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#15_Months"/>
+        <Literal>15 Months</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#doses"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal>2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#doses"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal>3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#doses"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal>4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#6_weeks"/>
+        <Literal>6 Weeks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#9_Months"/>
+        <Literal>9 Months</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAge"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDisease"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDose"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDoses"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasROA"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVaccinationSite"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasAge"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasDisease"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasDose"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasDoses"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasROA"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasVaccinationSite"/>
+    </TransitiveObjectProperty>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#diseasePrevention"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#dose"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#doses"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#routeOfAdministration"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#vaccinationSite"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#At_Birth</IRI>
+        <Literal>At Birth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#At_Birth_To_12_Months</IRI>
+        <Literal>At Birth To 12 Months</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diarrhoea_Diseases</IRI>
+        <Literal>Diarrhoea Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diphtheria</IRI>
+        <Literal>Diphtheria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Haemophilus_Influenza_Type_B</IRI>
+        <Literal>Haemophilius Influeza type b</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hepatitis</IRI>
+        <Literal>Hepatitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hepatitis_B</IRI>
+        <Literal>Hepatitis B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intradermal</IRI>
+        <Literal>Intradermal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intramuscular</IRI>
+        <Literal>Intramuscular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Left_Outer_Thigh</IRI>
+        <Literal>Left Outer Thigh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Left_Upper_Arm</IRI>
+        <Literal>Left Upper Arm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Measles</IRI>
+        <Literal>Measles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Oral</IRI>
+        <Literal>Oral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pertusis</IRI>
+        <Literal>Pertusis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pneumonia</IRI>
+        <Literal>Pneumonia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Poliomyelitis</IRI>
+        <Literal>Poliomyelitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Right_Outer_Thigh</IRI>
+        <Literal>Right Outer Thigh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Right_Upper_Arm</IRI>
+        <Literal>Right Upper Arm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sight_Issues</IRI>
+        <Literal>Sight Issues</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Subcutaneous</IRI>
+        <Literal>Subcutaneous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tetanus</IRI>
+        <Literal>Tetanus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tuberculosis</IRI>
+        <Literal>Tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Yellow_Fever</IRI>
+        <Literal>Yellow Fever</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0.05ml</IRI>
+        <Literal>0.05ml</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#0.5ml</IRI>
+        <Literal>0.5ml</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#1</IRI>
+        <Literal>1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#1.2ml</IRI>
+        <Literal>1.2ml</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#10_weeks</IRI>
+        <Literal>10 Weeks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#100000IU</IRI>
+        <Literal>1000IU</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#14_weeks</IRI>
+        <Literal>14 Weeks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#15_Months</IRI>
+        <Literal>15 Months</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2</IRI>
+        <Literal>2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2_drops</IRI>
+        <Literal>2 Drops</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#3</IRI>
+        <Literal>3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#4</IRI>
+        <Literal>4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#6_weeks</IRI>
+        <Literal>6 Weeks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#9_Months</IRI>
+        <Literal>9 Months</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,71 @@
+{% extends 'index/layout.html' %}
+{% block content %}
+<body>
+ <h1 style="font-weight:bolder; text-align:center">HEPATITIS B</h1>
+{% for result in result %}
+ <hr>
+ <ul class="list" style="text-align: center; margin-left: 320px;">
+    <li style="text-align: center; width: 650px; height: 10px; padding:40px; list-style-type: none; font-weight: bolder;">
+        <a href="#" style="font-size: 35px; font-weight: bolder; line-height: 3px;"><p style="color: grey; line-height: 7px;"> Age For Vaccine </p>{{ result.agelabel }}</a>
+    </li>
+    <br>
+</ul>
+ <hr>
+ {% endfor %}
+
+ {% for result in result %}
+ <hr>
+ <ul class="list" style="text-align: center; margin-left: 320px;">
+    <li style="text-align: center; width: 650px; height: 10px; padding:40px; list-style-type: none; font-weight: bolder;">
+        <a href="#" style="font-size: 35px; font-weight: bolder; line-height: 3px;"><p style="color: grey; line-height: 7px;"> Prevents </p>{{ result.preventionlabel }}</a>
+    </li>
+    <br>
+</ul>
+ <hr>
+ {% endfor %}
+
+{% for result in result %}
+ <hr>
+ <ul class="list" style="text-align: center; margin-left: 320px;">
+    <li style="text-align: center; width: 650px; height: 10px; padding:40px; list-style-type: none; font-weight: bolder;">
+        <a href="#" style="font-size: 35px; font-weight: bolder; line-height: 3px;"><p style="color: grey; line-height: 7px;"> Dose </p>{{ result.doselabel }}</a>
+    </li>
+    <br>
+</ul>
+ <hr>
+ {% endfor %}
+
+{% for result in result %}
+ <hr>
+ <ul class="list" style="text-align: center; margin-left: 320px;">
+    <li style="text-align: center; width: 650px; height: 10px; padding:40px; list-style-type: none; font-weight: bolder;">
+        <a href="#" style="font-size: 35px; font-weight: bolder; line-height: 3px;"><p style="color: grey; line-height: 7px;"> Doses </p>{{ result.doseslabel }}</a>
+    </li>
+    <br>
+</ul>
+ <hr>
+ {% endfor %}
+
+{% for result in result %}
+ <hr>
+ <ul class="list" style="text-align: center; margin-left: 320px;">
+    <li style="text-align: center; width: 650px; height: 10px; padding:40px; list-style-type: none; font-weight: bolder;">
+        <a href="#" style="font-size: 35px; font-weight: bolder; line-height: 3px;"><p style="color: grey; line-height: 7px;"> Route Of Administration </p>{{ result.roalabel }}</a>
+    </li>
+    <br>
+</ul>
+ <hr>
+ {% endfor %}
+
+{% for result in result %}
+ <hr>
+ <ul class="list" style="text-align: center; margin-left: 320px;">
+    <li style="text-align: center; width: 650px; height: 10px; padding:40px; list-style-type: none; font-weight: bolder;">
+        <a href="#" style="font-size: 35px; font-weight: bolder; line-height: 3px;"><p style="color: grey; line-height: 7px;"> Site </p>{{ result.sitelabel }}</a>
+    </li>
+    <br>
+</ul>
+ <hr>
+{% endfor %}
+</body>
+{% endblock %}

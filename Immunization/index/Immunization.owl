@@ -1,0 +1,1172 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/olamiposi/ontologies/2019/9/untitled-ontology-24#"
+     xml:base="http://www.semanticweb.org/olamiposi/ontologies/2019/9/untitled-ontology-24"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:moyin="http://www.immunization.com/vaccine/moyin#">
+    <owl:Ontology rdf:about="http://www.immunization.com/vaccine/moyin"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#hasAge -->
+
+    <owl:ObjectProperty rdf:about="http://www.immunization.com/vaccine/moyin#hasAge">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#hasDisease -->
+
+    <owl:ObjectProperty rdf:about="http://www.immunization.com/vaccine/moyin#hasDisease">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#hasDose -->
+
+    <owl:ObjectProperty rdf:about="http://www.immunization.com/vaccine/moyin#hasDose">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#hasDoses -->
+
+    <owl:ObjectProperty rdf:about="http://www.immunization.com/vaccine/moyin#hasDoses">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#hasROA -->
+
+    <owl:ObjectProperty rdf:about="http://www.immunization.com/vaccine/moyin#hasROA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#hasVaccinationSite -->
+
+    <owl:ObjectProperty rdf:about="http://www.immunization.com/vaccine/moyin#hasVaccinationSite">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.immunization.com/vaccine/moyin#age">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#diseasePrevention -->
+
+    <owl:DatatypeProperty rdf:about="http://www.immunization.com/vaccine/moyin#diseasePrevention">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#dose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.immunization.com/vaccine/moyin#dose">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#doses -->
+
+    <owl:DatatypeProperty rdf:about="http://www.immunization.com/vaccine/moyin#doses">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#routeOfAdministration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.immunization.com/vaccine/moyin#routeOfAdministration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#vaccinationSite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.immunization.com/vaccine/moyin#vaccinationSite">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Age_For_BCG -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Age_For_BCG">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#BCG"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Age_For_Hepatitis_B -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Age_For_Hepatitis_B">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Age_For_IPV -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Age_For_IPV">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Inactivated_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Age_For_Measles -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Age_For_Measles">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Measles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Age_For_OPV -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Age_For_OPV">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Oral_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Age_For_PCV -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Age_For_PCV">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pneumococcal_Conjugate_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Age_For_Pentavalent -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Age_For_Pentavalent">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Age_For_Rota -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Age_For_Rota">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Rota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Age_For_Vitamin_A -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Age_For_Vitamin_A">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Age_For_Yellow_Fever -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Age_For_Yellow_Fever">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#BCG -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#BCG">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vaccine"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#BCG_Disease_Prevention -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#BCG_Disease_Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#BCG"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#BCG_Dose -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#BCG_Dose">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#BCG"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#BCG_Doses -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#BCG_Doses">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#BCG"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#BCG_Route_Of_Administration -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#BCG_Route_Of_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#BCG"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#BCG_Vaccination -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#BCG_Vaccination">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#BCG"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Hepatitis_B -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Hepatitis_B">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Hepatitis_B_Disease_Prevention -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Hepatitis_B_Disease_Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Hepatitis_B_Dose -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Hepatitis_B_Dose">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Hepatitis_B_Doses -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Hepatitis_B_Doses">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Hepatitis_B_Route_Of_Administration -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Hepatitis_B_Route_Of_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Hepatitis_B_Vaccination -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Hepatitis_B_Vaccination">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#IPV_Disease_Prevention -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#IPV_Disease_Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Inactivated_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#IPV_Dose -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#IPV_Dose">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Inactivated_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#IPV_Doses -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#IPV_Doses">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Inactivated_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#IPV_Route_Of_Administration -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#IPV_Route_Of_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Inactivated_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#IPV_Vaccination -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#IPV_Vaccination">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Inactivated_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Immunization -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Immunization"/>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Inactivated_Polio_Vaccine -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Inactivated_Polio_Vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vaccine"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inactivated Polio Vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Measles -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Measles">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Measles_Disease_Prevention -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Measles_Disease_Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Measles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Measles_Dose -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Measles_Dose">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Measles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Measles_Doses -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Measles_Doses">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Measles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Measles_Route_Of_Administration -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Measles_Route_Of_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Measles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Measles_Vaccination -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Measles_Vaccination">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Measles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#OPV_Disease_Prevention -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#OPV_Disease_Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Oral_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#OPV_Dose -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#OPV_Dose">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Oral_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#OPV_Doses -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#OPV_Doses">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Oral_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#OPV_Route_Of_Administration -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#OPV_Route_Of_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Oral_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#OPV_Vaccination -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#OPV_Vaccination">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Oral_Polio_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Oral_Polio_Vaccine -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Oral_Polio_Vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vaccine"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oral Polio Vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#PCV_Disease_Prevention -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#PCV_Disease_Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pneumococcal_Conjugate_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#PCV_Dose -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#PCV_Dose">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pneumococcal_Conjugate_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#PCV_Doses -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#PCV_Doses">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pneumococcal_Conjugate_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#PCV_Route_Of_Administration -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#PCV_Route_Of_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pneumococcal_Conjugate_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#PCV_Vaccination -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#PCV_Vaccination">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pneumococcal_Conjugate_Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Pentavalent -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Pentavalent">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vaccine"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pentavalent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Pentavalent_Disease_Prevention -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Pentavalent_Disease_Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Pentavalent_Dose -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Pentavalent_Dose">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Pentavalent_Doses -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Pentavalent_Doses">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Pentavalent_Route_Of_Administration -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Pentavalent_Route_Of_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Pentavalent_Vaccination -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Pentavalent_Vaccination">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Pneumococcal_Conjugate_Vaccine -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Pneumococcal_Conjugate_Vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vaccine"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pneumococcal Conjugate Vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Rota -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Rota">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vaccine"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rota</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Rota_Disease_Prevention -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Rota_Disease_Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Rota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Rota_Dose -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Rota_Dose">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Rota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Rota_Doses -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Rota_Doses">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Rota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Rota_Route_Of_Administration -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Rota_Route_Of_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Rota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Rota_Vaccination -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Rota_Vaccination">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Rota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Vaccine -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Immunization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Vitamin_A -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Vitamin_A">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vaccine"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Vitamin_A_Disease_Prevention -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Vitamin_A_Disease_Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Vitamin_A_Dose -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Vitamin_A_Dose">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Vitamin_A_Doses -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Vitamin_A_Doses">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Vitamin_A_Route_Of_Administration -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Vitamin_A_Route_Of_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Vitamin_A_Vaccination -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Vitamin_A_Vaccination">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Yellow_Fever -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Yellow_Fever">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Vaccine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Yellow_Fever_Disease_Prevention -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Yellow_Fever_Disease_Prevention">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Yellow_Fever_Dose -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Yellow_Fever_Dose">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Yellow_Fever_Doses -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Yellow_Fever_Doses">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Yellow_Fever_Route_Of_Administration -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Yellow_Fever_Route_Of_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Yellow_Fever_Vaccination -->
+
+    <owl:Class rdf:about="http://www.immunization.com/vaccine/moyin#Yellow_Fever_Vaccination">
+        <rdfs:subClassOf rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#At_Birth -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#At_Birth">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_Hepatitis_B"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_OPV"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_Vitamin_A"/>
+        <moyin:hasAge rdf:resource="http://www.immunization.com/vaccine/moyin#At_Birth"/>
+        <moyin:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">At Birth</moyin:age>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">At Birth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#At_Birth_To_12_Months -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#At_Birth_To_12_Months">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_BCG"/>
+        <moyin:hasAge rdf:resource="http://www.immunization.com/vaccine/moyin#At_Birth_To_12_Months"/>
+        <moyin:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">At Birth To 12 Months</moyin:age>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">At Birth To 12 Months</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Diarrhoea_Diseases -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Diarrhoea_Diseases">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Rota_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diarrhea</moyin:diseasePrevention>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diarrhoea Disease</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Diphtheria -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Diphtheria">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diphtheria</moyin:diseasePrevention>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diphtheria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Haemophilus_Influenza_Type_B -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Haemophilus_Influenza_Type_B">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent_Disease_Prevention"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemophilius Influeza type b</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Hepatitis -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Hepatitis">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatitis</moyin:diseasePrevention>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatitis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Hepatitis_B -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Hepatitis_B">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatitis</moyin:diseasePrevention>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Intradermal -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Intradermal">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#BCG_Route_Of_Administration"/>
+        <moyin:hasROA rdf:resource="http://www.immunization.com/vaccine/moyin#Intradermal"/>
+        <moyin:routeOfAdministration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intradermal</moyin:routeOfAdministration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intradermal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Intramuscular -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Intramuscular">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B_Route_Of_Administration"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#IPV_Route_Of_Administration"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#PCV_Route_Of_Administration"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent_Route_Of_Administration"/>
+        <moyin:routeOfAdministration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intramuscular</moyin:routeOfAdministration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intramuscular</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Left_Outer_Thigh -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Left_Outer_Thigh">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B_Vaccination"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#PCV_Vaccination"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent_Vaccination"/>
+        <moyin:vaccinationSite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left_Outer_Thigh</moyin:vaccinationSite>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left Outer Thigh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Left_Upper_Arm -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Left_Upper_Arm">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#BCG_Vaccination"/>
+        <moyin:vaccinationSite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left_Upper_Arm</moyin:vaccinationSite>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left Upper Arm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Measles -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Measles">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Measles_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measles</moyin:diseasePrevention>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Oral -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Oral">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#OPV_Route_Of_Administration"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#OPV_Vaccination"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Rota_Route_Of_Administration"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A_Route_Of_Administration"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A_Vaccination"/>
+        <moyin:routeOfAdministration rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></moyin:routeOfAdministration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oral</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Pertusis -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Pertusis">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertusis</moyin:diseasePrevention>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pertusis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Pneumonia -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Pneumonia">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#PCV_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pneumonia</moyin:diseasePrevention>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pneumonia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Polio -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Polio">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#IPV_Disease_Prevention"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#OPV_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polio</moyin:diseasePrevention>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poliomyelitis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Right_Outer_Thigh -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Right_Outer_Thigh">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#IPV_Vaccination"/>
+        <moyin:vaccinationSite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right Outer Thigh</moyin:vaccinationSite>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right Outer Thigh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Right_Upper_Arm -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Right_Upper_Arm">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Measles_Vaccination"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever_Vaccination"/>
+        <moyin:vaccinationSite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right Upper Arm</moyin:vaccinationSite>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right Upper Arm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Sight_Issues -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Sight_Issues">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sight Issues</moyin:diseasePrevention>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sight Issues</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Subcutaneous -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Subcutaneous">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Measles_Route_Of_Administration"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever_Route_Of_Administration"/>
+        <moyin:routeOfAdministration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subcutaneous</moyin:routeOfAdministration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subcutaneous</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Tetanus -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Tetanus">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetanus</moyin:diseasePrevention>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetanus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Tuberculosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Tuberculosis">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#BCG_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuberculosis</moyin:diseasePrevention>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuberculosis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#Yellow_Fever -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#Yellow_Fever">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever_Disease_Prevention"/>
+        <moyin:diseasePrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow Fever</moyin:diseasePrevention>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#0.05ml -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#0.05ml">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#BCG_Dose"/>
+        <moyin:dose rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.05ml</moyin:dose>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.05ml</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#0.5ml -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#0.5ml">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B_Dose"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#IPV_Dose"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Measles_Doses"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#PCV_Dose"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent_Dose"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever_Dose"/>
+        <moyin:routeOfAdministration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.5ml</moyin:routeOfAdministration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.5ml</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#1">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#BCG_Doses"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Hepatitis_B_Doses"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#IPV_Doses"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Measles_Dose"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Yellow_Fever_Doses"/>
+        <moyin:hasDoses rdf:resource="http://www.immunization.com/vaccine/moyin#1"/>
+        <moyin:doses rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</moyin:doses>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#1.2ml -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#1.2ml">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Rota_Dose"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2ml</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#10_weeks -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#10_weeks">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_OPV"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_PCV"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_Pentavalent"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_Rota"/>
+        <moyin:hasAge rdf:resource="http://www.immunization.com/vaccine/moyin#10_weeks"/>
+        <moyin:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Weeks</moyin:age>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 Weeks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#100000IU -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#100000IU">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A_Dose"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000IU</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#14_weeks -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#14_weeks">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_IPV"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_OPV"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_PCV"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_Pentavalent"/>
+        <moyin:hasAge rdf:resource="http://www.immunization.com/vaccine/moyin#14_weeks"/>
+        <moyin:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 Weeks</moyin:age>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 Weeks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#15_Months -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#15_Months">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_Vitamin_A"/>
+        <moyin:hasAge rdf:resource="http://www.immunization.com/vaccine/moyin#15_Months"/>
+        <moyin:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 Months</moyin:age>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 Months</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#2">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Rota_Doses"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Vitamin_A_Doses"/>
+        <moyin:hasDoses rdf:resource="http://www.immunization.com/vaccine/moyin#2"/>
+        <moyin:doses rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</moyin:doses>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#2_drops -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#2_drops">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#OPV_Dose"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Drops</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#3">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#PCV_Doses"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Pentavalent_Doses"/>
+        <moyin:hasDoses rdf:resource="http://www.immunization.com/vaccine/moyin#3"/>
+        <moyin:doses rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</moyin:doses>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#4">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#OPV_Doses"/>
+        <moyin:hasDoses rdf:resource="http://www.immunization.com/vaccine/moyin#4"/>
+        <moyin:doses rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</moyin:doses>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#6_weeks -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#6_weeks">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_OPV"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_Pentavalent"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_Rota"/>
+        <moyin:hasAge rdf:resource="http://www.immunization.com/vaccine/moyin#6_weeks"/>
+        <moyin:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Weeks</moyin:age>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 Weeks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.immunization.com/vaccine/moyin#9_Months -->
+
+    <owl:NamedIndividual rdf:about="http://www.immunization.com/vaccine/moyin#9_Months">
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_Measles"/>
+        <rdf:type rdf:resource="http://www.immunization.com/vaccine/moyin#Age_For_Yellow_Fever"/>
+        <moyin:hasAge rdf:resource="http://www.immunization.com/vaccine/moyin#9_Months"/>
+        <moyin:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9 Months</moyin:age>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9 Months</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.immunization.com/vaccine/moyin#Hepatitis_B">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatitis B</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.immunization.com/vaccine/moyin#Measles">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measles</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.immunization.com/vaccine/moyin#Yellow_Fever">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow Fever</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
